@@ -1,6 +1,5 @@
 html, body {font-family: Arial;
-margin:0;
-padding: 50px;}
+margin:0;}
 
 header{
 	background-color: #00004d;
@@ -13,7 +12,9 @@ header img{
 	border-radius: 174px;
 	width: 300px;
 	border:30px solid #CC0000;}
-/*<header>
-			<img src="img/profile.jpg">
-			<h1>Wreck-It Ralph</h1>
-		</header>*/
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	padding-left: 20px;
+}
+img.big-image{max-width: 100%;}
